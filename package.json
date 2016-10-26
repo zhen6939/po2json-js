@@ -1,7 +1,7 @@
 {
   "name": "po2json-js",
   "description": "Convert PO files to JSON or JS (Special Usage in Livetext)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/zhen639/po2json-js",
   "author": {
     "name": "Joshua I. Miller",
@@ -57,9 +57,9 @@
     }
   ],
   "bin": {
-    "po2json": "bin/po2json"
+    "po2json": "bin/po2json-js"
   },
-  "main": "./lib/po2json",
+  "main": "./lib/po2json-js",
   "engines": {
     "node": ">= 0.8.0"
   },
