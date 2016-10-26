@@ -1,8 +1,8 @@
 {
-  "name": "po2json",
-  "description": "Convert PO files to JSON",
-  "version": "0.4.5",
-  "homepage": "https://github.com/mikeedwards/po2json",
+  "name": "po2json-js",
+  "description": "Convert PO files to JSON or JS (Special Usage in Livetext)",
+  "version": "0.0.1",
+  "homepage": "https://github.com/zhen639/po2json-js",
   "author": {
     "name": "Joshua I. Miller",
     "email": "unrtst@cpan.org"
@@ -37,14 +37,18 @@
     {
       "name": "Alex Petty",
       "email": "pettyalex@gmail.com"
+    },
+    {
+      "name": "Caizhen Liu",
+      "email": "zhen6939@gmail.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikeedwards/po2json.git"
+    "url": "https://github.com/zhen639/po2json-js.git"
   },
   "bugs": {
-    "url": "https://github.com/mikeedwards/po2json/issues"
+    "url": "https://github.com/zhen639/po2json-js/pulls"
   },
   "licenses": [
     {

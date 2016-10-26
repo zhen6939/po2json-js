@@ -27,6 +27,16 @@ var opts = require("nomnom")
     default: 'messages',
     help: 'domain'
   })
+  .option('type', {
+    abbr: 't',
+    default: '',
+    help: 'output as javascript(only for livetext)'
+  })
+  .option('varName', {
+    abbr: 'var',
+    default: 'appLocale',
+    help: 'variable name in js result file(only for livetext)'
+  })
   .option('fallback-to-msgid', {
     flag: true,
     help: 'Use msgid if translation is missing (nplurals must match)'
