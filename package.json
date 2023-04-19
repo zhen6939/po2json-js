@@ -59,7 +59,7 @@
   "bin": {
     "po2json": "bin/po2json-js"
   },
-  "main": "./lib/po2json-js",
+  "main": "./bin/po2json-js",
   "engines": {
     "node": ">= 0.8.0"
   },
